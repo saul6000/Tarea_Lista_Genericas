@@ -109,7 +109,8 @@ namespace Tarea_ListaGénericas
         {
 
 
-           
+            
+
             foreach (ListViewItem lista in listMatriculas.SelectedItems)
             {
                 lista.Remove();
@@ -118,6 +119,7 @@ namespace Tarea_ListaGénericas
 
         private void btn_Click(object sender, EventArgs e)
         {
+            
             listMatriculas.Items.Clear();
         }
     }
