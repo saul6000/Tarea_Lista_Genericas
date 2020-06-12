@@ -13,7 +13,7 @@ namespace Tarea_ListaGénericas
 {
     public partial class Form1 : Form
     {
-        int n = 0;
+        
         private List<Matricula> La_lista = new List<Matricula>();
         public Form1()
         {
